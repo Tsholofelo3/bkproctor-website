@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback | Collections by BK Proctor</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMwN5L6AvlPX2LMoSE"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="feedback-page">
+
+    <header>
+        <a href="#"><img src="images/bk12.png" width="150" height="150" class="logo" alt="BK Proctor Logo"></a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="feedback.html" class="active">Feedback</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html"><img src="images/cart1.png" alt="Cart Logo" width="30" height="30"></a></li>
+        </ul>
+    </nav>
+
+    <h1>We value your Feedback</h1>
+
+    <section class="index-container">
+        <aside class="sidebar right-sidebar">
+            <img src="images/bk1.png" alt="Feedback Sidebar Image" style="width:100%; height:auto; border-radius:10px; margin-bottom:15px;">
+            <p>Your feedback helps us improve our services and products. Please take a moment to share your thoughts with us. We appreciate your time and effort!</p>
+        </aside>
+
+        <main class="main-content">
+            <h2>Feedback Form</h2>
+            <form action="#" method="POST">
+                <label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname" required 
+       placeholder="Enter your full name"
+       pattern="[A-Za-z\s]+" 
+       title="Please enter letters only.">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required placeholder="Enter subject of feedback">
+
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Write your feedback here..."></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </main>
+    </section>
+
+    <aside class="social-media">
+        <p>Follow us on:</p>
+        <a href="#"><img src="images/facebook-icon.png" alt="Facebook Icon"> Collections by BK Proctor</a>
+        <a href="#"><img src="images/twitter-icon.png" alt="Twitter Icon"> @Collections by BK Proctor</a>
+        <a href="#"><img src="images/instagram-icon.png" alt="Instagram Icon"> @Collections_by_BK_Proctor</a>
+    </aside>
+
+    <footer>
+        <p>© 2025 Collections by BK Proctor. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

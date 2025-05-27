@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Collections by BK Proctor</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/script.js"></script>
+
+<body class="cart-page">
+
+    <header>
+        <a href="#"><img src="images/bk12.png" width="150" height="150" class="logo" alt="BK Proctor Logo"></a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html" class="active"><img src="images/cart1.png" alt="Cart Logo" width="30" height="30"></a></li>
+        </ul>
+    </nav>
+
+    <h1>Your Shopping Cart</h1>
+
+    <section class="index-container">
+        <aside class="sidebar right-sidebar">
+            <img src="images/bk3.png" alt="Cart Sidebar Image" style="width:100%; height:auto; border-radius:10px; margin-bottom:15px;">
+            <p>Review your selected items, adjust quantities, and proceed to checkout. Enjoy hassle-free shopping with Collections by BK Proctor.</p>
+        </aside>
+
+        <main class="main-content">
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/bk18.png" alt="BK T-shirt" width="80"></td>
+                        <td>BK Proctor T-Shirt</td>
+                        <td>P300.00</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>P600.00</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/bk20.png" alt="hoodie" width="80"></td>
+                        <td>Streetwear Hoodie</td>
+                        <td>P750.00</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>P750.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <p><strong>Total: P1350.00</strong></p>
+                <button>Update Cart</button>
+                <button>Proceed to Checkout</button>
+            </div>
+        </main>
+    </section>
+
+    <aside class="social-media">
+        <p>Follow us on:</p>
+        <a href="#"><img src="images/facebook-icon.png" alt="Facebook Icon"> Collections by BK Proctor</a>
+        <a href="#"><img src="images/twitter-icon.png" alt="Twitter Icon"> @Collections by BK Proctor</a>
+        <a href="#"><img src="images/instagram-icon.png" alt="Instagram Icon"> @Collections_by_BK_Proctor</a>
+    </aside>
+
+    <footer>
+        <p>© 2025 Collections by BK Proctor. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
